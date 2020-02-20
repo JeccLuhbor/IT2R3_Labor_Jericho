@@ -1,10 +1,10 @@
 body{
     margin: 0px;
 }
-.container {
+/*.container {
     width: 1600px;
     margin: 0px;
-}
+}*/
 .logo{
     width: 10%;
     display: inline-block;
@@ -34,8 +34,8 @@ nav a:hover{
     border-radius: 20px;
 }
 section{
-    background-image: url(bg.jpg);
-    padding: 500px;
+    background-color: dimgrey;
+    padding: 300px;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
@@ -49,4 +49,43 @@ section h1 {
     padding: 15px;
     color: #000000a3;
     background: #92ff0014;
+}
+
+/* section 2 about us*/
+.section2{
+    background-color: lightblue;
+    padding: 500px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.section2 h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 74px;
+}
+.phara {
+    width: 50%;
+    /* margin-left: 0px; */
+    float: left;
+    /* position: absolute; */
+    margin-left: -94px;
+}
+.image-aside img {
+    width: 100%;
+    margin-top: 5px;
+}
+img {
+    float: right;
+    width: 346px;
+}
+a {
+    text-decoration: none;
+    color: darkgoldenrod;
+    font-size: 21px;
+    float: right;
+    border: 1px solid;
+    padding: 5px;
+    border-radius: 11px;
 }
