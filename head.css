@@ -1,0 +1,128 @@
+
+body{
+    margin: 0px;
+    /*background-image: url(image/bg.jpg);
+    padding: 271px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;*/
+}
+/*.container {
+    width: 1600px;
+    margin: 0px;
+}*/
+.logo{
+    width: 10%;
+    display: inline-block;
+}
+header{
+    margin-top: 0;
+    background-color: rgb(66, 93, 109);
+}
+div, img {
+    padding-top: 1px;
+    padding-left: 1px;
+    width: 100%;
+}
+nav {
+    float: right;
+    margin-top: 29px;
+    margin-right: 108px;
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-family: serif;
+    font-size: 25px;
+    margin-left: 58px;
+    padding: 15px 15px;
+}
+nav a:hover{
+    background: darkgray;
+    border-radius: 20px;
+}
+.section1{
+    background-image: url(image/bg.jpg);
+    padding: 223px;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.section1 h1 {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-left: 255px;
+    text-align: center;
+    border: 1px solid;
+    border-color: #c69552;
+    font-size: 53px;
+    padding: 15px;
+    color: #000000a3;
+    background: #92ff0014;
+    width: 357px;
+}
+.section2 h2{
+    color: snow;
+    margin-top: 0;
+    padding: 31px;
+    text-align: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.section2{
+    background-image: url(image/section2_background.jpg);
+    background-size: cover;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.section2 img {
+    width: 293px;
+    margin-top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 180px;
+}
+.phara {
+    color: seashell;
+    text-align: left;
+    float: left;
+    width: 335px;
+    margin: 0px;
+    padding-top: 16px;
+    /* border: 1px solid; */
+    padding-left: 250px;
+    /* padding-right: 0px;*/
+}
+/*.phara p{
+    border: 1px solid;
+    padding: 5px;
+}*/
+.button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: burlywood;
+    border-radius: 33px;
+    float: right;
+    padding: 9px 13px;
+}
+.button:hover{
+    color: red;
+}
+section.services {
+    padding: 55px;
+    background-color: gainsboro;
+}
+section.services div {
+    width: 330px;
+    display: inline-block;
+    margin-left: 55px;
+}
+section.services.about{
+    float: right;   
+}
+.section.services.contact{
+    float: right;
+}
