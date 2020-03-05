@@ -7,10 +7,11 @@ body{
     background-repeat: no-repeat;
     background-position: center;*/
 }
-/*.container {
-    width: 1600px;
+.container {
+    width: 1200px;
     margin: 0px;
-}*/
+    padding-left: 338px;
+}
 .logo{
     width: 10%;
     display: inline-block;
@@ -26,7 +27,7 @@ div, img {
 }
 nav {
     float: right;
-    margin-top: 29px;
+    margin-top: 25px;
     margin-right: 108px;
 }
 nav a {
@@ -43,7 +44,7 @@ nav a:hover{
 }
 .section1{
     background-image: url(image/bg.jpg);
-    padding: 223px;
+    padding: 282px;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: center;
@@ -51,7 +52,7 @@ nav a:hover{
 .section1 h1 {
     text-transform: uppercase;
     margin-top: 0;
-    margin-left: 255px;
+    margin-left: 130px;
     text-align: center;
     border: 1px solid;
     border-color: #c69552;
@@ -77,6 +78,7 @@ nav a:hover{
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-position: top;
+    padding: 83px 0px;
 }
 .section2 img {
     width: 293px;
@@ -91,10 +93,12 @@ nav a:hover{
     float: left;
     width: 335px;
     margin: 0px;
+    margin-left: 278px;
     padding-top: 16px;
     /* border: 1px solid; */
     padding-left: 250px;
     /* padding-right: 0px;*/
+    
 }
 /*.phara p{
     border: 1px solid;
@@ -112,17 +116,43 @@ nav a:hover{
     color: red;
 }
 section.services {
-    padding: 55px;
+    padding: 130px 55px;
     background-color: gainsboro;
 }
 section.services div {
     width: 330px;
     display: inline-block;
-    margin-left: 55px;
+    margin-left: 194px;
+    text-align: center;
 }
 section.services.about{
     float: right;   
 }
 .section.services.contact{
     float: right;
+}
+h3 {
+    text-align: center;
+    text-decoration: none;
+    font-size: 62px;
+    text-transform: uppercase;
+    font-family: monospace sans-serif;
+    font-family: monospace;
+}
+
+.cta-section {
+    padding: 64px 246px;
+    font-size: 35px;
+    background: #8c846d;
+}
+
+.cta-section .button {
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #bfaf9b;
+    border-radius: 38px;
+    float: right;
+    padding: 9px 13px;
+    border: 1px solid black;
+    font-size: 25px;
 }
